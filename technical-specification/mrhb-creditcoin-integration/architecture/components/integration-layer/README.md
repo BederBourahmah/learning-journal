@@ -12,10 +12,18 @@ Document the Integration Layer of the MRHB & Creditcoin integration system, deta
 ## Purpose and Scope
 The Integration Layer serves as the primary communication bridge between MRHB and Creditcoin systems, facilitating secure and efficient data exchange while maintaining compliance with regulatory requirements.
 
+## Technology Stack
+- **Platform**: LTS .NET
+- **API Gateway**: ASP.NET Core
+- **Message Queue**: RabbitMQ with .NET Client
+- **Data Transformer**: .NET class library
+- **Integration Adapters**: .NET HttpClientFactory
+
 ## Components
 
 ### 1. API Gateway
 - **Purpose**: Manages and routes all cross-system API requests between MRHB, Creditcoin, and third-party systems
+- **Implementation**: ASP.NET Core web application with middleware pipeline
 - **Components**:
   - Request Validator
   - Rate Limiter
@@ -29,10 +37,11 @@ The Integration Layer serves as the primary communication bridge between MRHB an
 
 ### 2. Message Queue
 - **Purpose**: Handles asynchronous communication between systems
+- **Implementation**: RabbitMQ server with separate .NET service for message processing
 - **Components**:
-  - Message Broker
-  - Queue Manager
-  - Message Processor
+  - Message Broker (RabbitMQ server)
+  - Queue Manager (RabbitMQ server)
+  - Message Processor (.NET service)
 - **Technical Specifications**:
   - AMQP protocol support
   - Message persistence
@@ -41,6 +50,7 @@ The Integration Layer serves as the primary communication bridge between MRHB an
 
 ### 3. Data Transformer
 - **Purpose**: Converts data between different formats and schemas
+- **Implementation**: .NET class library embedded in both API Gateway and Message Processor
 - **Components**:
   - Schema Validator
   - Data Mapper
@@ -53,10 +63,11 @@ The Integration Layer serves as the primary communication bridge between MRHB an
 
 ### 4. Integration Adapters
 - **Purpose**: Provides system-specific integration implementations
+- **Implementation**: .NET class libraries using HttpClientFactory
 - **Components**:
-  - MRHB Adapter
-  - Creditcoin Adapter
-  - Custom Protocol Handler
+  - MRHB Adapter (separate library)
+  - Creditcoin Adapter (separate library)
+  - Custom Protocol Handler (part of respective adapter library)
 - **Technical Specifications**:
   - Protocol-specific implementations
   - Connection pooling
