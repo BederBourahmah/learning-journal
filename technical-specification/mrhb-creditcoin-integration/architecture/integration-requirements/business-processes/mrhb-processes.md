@@ -12,9 +12,9 @@ Document the business processes within the MRHB system that need to be integrate
 ## Process Categories
 
 ### 1. Account Management
-- **Processes**: To be documented
-- **Data Flows**: To be documented
-- **Business Rules**: To be documented
+- **Processes**: See detailed documentation in [MRHB Account Management Processes](mrhb-account-management.md)
+- **Data Flows**: See detailed documentation in [MRHB Account Management Processes](mrhb-account-management.md)
+- **Business Rules**: See detailed documentation in [MRHB Account Management Processes](mrhb-account-management.md)
 
 ### 2. Transaction Processing
 - **Processes**: To be documented
@@ -27,14 +27,14 @@ Document the business processes within the MRHB system that need to be integrate
 - **Business Rules**: To be documented
 
 ## Data Models
-- **Account Data**: To be documented
+- **Account Data**: See detailed documentation in [MRHB Account Management Processes](mrhb-account-management.md)
 - **Transaction Data**: To be documented
 - **Compliance Data**: To be documented
 
 ## Integration Points
-- **Input Points**: To be documented
-- **Output Points**: To be documented
-- **Validation Rules**: To be documented
+- **Input Points**: Partially documented in [MRHB Account Management Processes](mrhb-account-management.md)
+- **Output Points**: Partially documented in [MRHB Account Management Processes](mrhb-account-management.md)
+- **Validation Rules**: Partially documented in [MRHB Account Management Processes](mrhb-account-management.md)
 
 ## Notes
 - This document requires input from MRHB stakeholders
