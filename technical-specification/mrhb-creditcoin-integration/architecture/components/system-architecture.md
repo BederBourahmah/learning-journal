@@ -9,7 +9,7 @@
 ## Sub-Tasks
 
 ### T1-A-004: Core Modules Documentation
-**Status**: In Progress  
+**Status**: Pending
 **Priority**: High  
 **Dependencies**: None  
 **Effort**: 1 point

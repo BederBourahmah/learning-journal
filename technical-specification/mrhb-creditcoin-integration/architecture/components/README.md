@@ -6,7 +6,7 @@ This directory contains the detailed specifications for the system architecture 
 
 ### T1-A-001: System Architecture Components
 - **T1-A-004**: [Core Modules Documentation](core-modules.md)
-  - Status: In Progress
+  - Status: Pending
   - Priority: High
   - Dependencies: None
   - Effort: 1 point
