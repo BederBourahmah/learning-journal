@@ -5,22 +5,27 @@
 ### Foundation Phase (Phase 1)
 
 #### System Architecture Components
-- T1-A-001: System Architecture Components Specification [In Progress]
+- T1-A-001: System Architecture Components Specification [Pending]
 - T1-A-002: API Specifications [Pending]
 - T1-A-003: Microservices Architecture [Pending]
 
 #### Core Modules
-- T1-A-004: Core Modules Documentation [In Progress]
-- T1-A-005: Integration Layer Documentation [In Human Review]
+- T1-A-004: Core Modules Documentation [Pending]
+- T1-A-005: Integration Layer Documentation [Blocked] (Depends on T1-A-013, T1-A-014)
 - T1-A-006: API Gateway Specifications [Pending]
 - T1-A-007: Message Queue Specifications [Pending]
 - T1-A-008: Data Transformer Specifications [Pending]
 - T1-A-009: Integration Adapters Specifications [Pending]
 
 #### Component Interactions
-- T1-A-010: Component Interaction Diagrams [In Progress]
-- T1-A-011: Data Flow Patterns [In Progress]
-- T1-A-012: Integration Points Specification [In Progress]
+- T1-A-010: Component Interaction Diagrams [Pending]
+- T1-A-011: Data Flow Patterns [Pending]
+- T1-A-012: Integration Points Specification [Pending]
+
+#### Integration Requirements
+- T1-A-013: Business Process and Data Flow Documentation [In Progress]
+- T1-A-014: Existing API Mapping and Analysis [Blocked] (Depends on T1-A-013)
+- T1-A-015: Integration Gap Analysis and Requirements [Pending]
 
 ## Blockchain (Category B)
 

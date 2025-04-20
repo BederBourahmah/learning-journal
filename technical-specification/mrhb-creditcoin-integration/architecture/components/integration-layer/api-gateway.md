@@ -1,10 +1,10 @@
 # API Gateway Specifications
 
 ## Task: T1-A-006
-**Status**: In Progress  
+**Status**: Pending  
 **Priority**: High  
-**Dependencies**: T1-A-005  
-**Effort**: 1 point
+**Dependencies**: None  
+**Effort**: 2 points
 
 ## Description
 Detailed documentation of the API Gateway specifications, including endpoint definitions, rate limiting rules, and WebSocket protocol implementation.

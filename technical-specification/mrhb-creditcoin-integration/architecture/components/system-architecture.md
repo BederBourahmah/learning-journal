@@ -1,14 +1,14 @@
 # System Architecture Components Specification
 
 ## Task: T1-A-001
-**Status**: In Progress  
+**Status**: Pending  
 **Priority**: High  
 **Dependencies**: None  
-**Effort**: 3 points
+**Effort**: 2 points
 
 ## Sub-Tasks
 
-### T1-A-001-a: Core Modules Documentation
+### T1-A-004: Core Modules Documentation
 **Status**: In Progress  
 **Priority**: High  
 **Dependencies**: None  
@@ -51,10 +51,10 @@ This sub-task documents the core modules of the system architecture.
   - Encryption service
   - Security monitoring system
 
-### T1-A-001-b: Component Interaction Diagrams
+### T1-A-010: Component Interaction Diagrams
 **Status**: Pending  
 **Priority**: High  
-**Dependencies**: T1-A-001-a  
+**Dependencies**: T1-A-004  
 **Effort**: 1 point
 
 #### Overview
@@ -82,10 +82,10 @@ MRHB Network <-> Integration Layer <-> Creditcoin Network
 - Message passing protocols
 - State synchronization flows
 
-### T1-A-001-c: Data Flow Patterns
+### T1-A-011: Data Flow Patterns
 **Status**: Pending  
 **Priority**: High  
-**Dependencies**: T1-A-001-b  
+**Dependencies**: T1-A-010  
 **Effort**: 1 point
 
 #### Overview
@@ -108,10 +108,10 @@ This sub-task specifies the data flow patterns within the system.
 4. Compliance Engine verifies
 5. Security Module audits
 
-### T1-A-001-d: Integration Points Specification
+### T1-A-012: Integration Points Specification
 **Status**: Pending  
 **Priority**: High  
-**Dependencies**: T1-A-001-c  
+**Dependencies**: T1-A-011  
 **Effort**: 1 point
 
 #### Overview

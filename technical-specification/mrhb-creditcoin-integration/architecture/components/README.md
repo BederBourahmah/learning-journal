@@ -5,28 +5,28 @@ This directory contains the detailed specifications for the system architecture 
 ## Task Structure
 
 ### T1-A-001: System Architecture Components
-- **T1-A-001-a**: [Core Modules Documentation](core-modules.md)
+- **T1-A-004**: [Core Modules Documentation](core-modules.md)
   - Status: In Progress
   - Priority: High
   - Dependencies: None
   - Effort: 1 point
 
-- **T1-A-001-b**: [Component Interaction Diagrams](interaction-diagrams.md)
+- **T1-A-010**: [Component Interaction Diagrams](interaction-diagrams.md)
   - Status: Pending
   - Priority: High
-  - Dependencies: T1-A-001-a
+  - Dependencies: T1-A-004
   - Effort: 1 point
 
-- **T1-A-001-c**: [Data Flow Patterns](data-flow-patterns.md)
+- **T1-A-011**: [Data Flow Patterns](data-flow-patterns.md)
   - Status: Pending
   - Priority: High
-  - Dependencies: T1-A-001-b
+  - Dependencies: T1-A-010
   - Effort: 1 point
 
-- **T1-A-001-d**: [Integration Points Specification](integration-points.md)
+- **T1-A-012**: [Integration Points Specification](integration-points.md)
   - Status: Pending
   - Priority: High
-  - Dependencies: T1-A-001-c
+  - Dependencies: T1-A-011
   - Effort: 1 point
 
 ## Documentation Structure

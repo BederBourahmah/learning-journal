@@ -1,9 +1,9 @@
 # Integration Layer Documentation
 
 ## Task: T1-A-005
-**Status**: In Human Review  
+**Status**: Blocked  
 **Priority**: High  
-**Dependencies**: None  
+**Dependencies**: T1-A-013 (Business Process and Data Flow Documentation), T1-A-014 (Existing API Mapping and Analysis)  
 **Effort**: 1 point
 
 ## Description

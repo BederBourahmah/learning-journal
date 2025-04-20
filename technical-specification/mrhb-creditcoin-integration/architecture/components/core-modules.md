@@ -1,10 +1,10 @@
 # Core Modules Documentation
 
 ## Task: T1-A-004
-**Status**: In Progress  
+**Status**: Pending  
 **Priority**: High  
 **Dependencies**: None  
-**Effort**: 1 point
+**Effort**: 2 points
 
 ## Description
 Document the core modules of the MRHB & Creditcoin integration system architecture, including their purposes, components, and technical specifications.

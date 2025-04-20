@@ -1,10 +1,10 @@
 # Message Queue Specifications
 
 ## Task: T1-A-007
-**Status**: In Progress  
+**Status**: Pending  
 **Priority**: High  
-**Dependencies**: T1-A-005  
-**Effort**: 1 point
+**Dependencies**: None  
+**Effort**: 2 points
 
 ## Description
 Detailed documentation of the Message Queue specifications, including queue configuration, message formats, and error handling procedures.
