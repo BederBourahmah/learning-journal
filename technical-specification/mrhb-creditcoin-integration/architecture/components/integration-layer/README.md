@@ -15,7 +15,7 @@ The Integration Layer serves as the primary communication bridge between MRHB an
 ## Components
 
 ### 1. API Gateway
-- **Purpose**: Manages and routes all external API requests
+- **Purpose**: Manages and routes all cross-system API requests between MRHB, Creditcoin, and third-party systems
 - **Components**:
   - Request Validator
   - Rate Limiter
