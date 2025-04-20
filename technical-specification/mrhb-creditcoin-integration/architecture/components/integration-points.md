@@ -1,9 +1,9 @@
 # Integration Points Specification
 
-## Task: T1-A-001-d
+## Task: T1-A-012
 **Status**: Pending  
 **Priority**: High  
-**Dependencies**: T1-A-001-c  
+**Dependencies**: T1-A-011  
 **Effort**: 1 point
 
 ## Description

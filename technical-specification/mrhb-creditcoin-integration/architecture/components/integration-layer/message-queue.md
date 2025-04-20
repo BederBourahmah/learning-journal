@@ -1,9 +1,9 @@
 # Message Queue Specifications
 
-## Task: T1-A-001-a-1-2
+## Task: T1-A-007
 **Status**: In Progress  
 **Priority**: High  
-**Dependencies**: None  
+**Dependencies**: T1-A-005  
 **Effort**: 1 point
 
 ## Description

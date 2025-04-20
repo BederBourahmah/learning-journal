@@ -1,9 +1,9 @@
 # Integration Adapters Specifications
 
-## Task: T1-A-001-a-1-4
+## Task: T1-A-009
 **Status**: In Progress  
 **Priority**: High  
-**Dependencies**: None  
+**Dependencies**: T1-A-005  
 **Effort**: 1 point
 
 ## Description

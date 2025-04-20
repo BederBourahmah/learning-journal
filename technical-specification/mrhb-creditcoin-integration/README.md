@@ -56,6 +56,16 @@ Tasks are identified using the format: T[Phase]-[Category]-[Sequence]
 - Category: A (Architecture), B (Blockchain), C (Compliance), D (Data), E (Security), F (Testing)
 - Sequence: Three-digit number (001-999)
 
+Each task must include:
+- Task ID
+- Status (Pending, In Progress, Blocked, In Human Review, Complete)
+- Priority (High, Medium, Low)
+- Dependencies (List of task IDs that must be completed before this task)
+- Effort (Points estimate)
+- Description
+
+Tasks with the same Phase and Category share a sequence number space (001-999). Tasks may be worked on in any order, but dependencies must be satisfied before a task can be marked Complete.
+
 ## Getting Started
 
 1. Review the task breakdown in the main technical specification document
