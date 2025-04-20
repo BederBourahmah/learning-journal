@@ -18,7 +18,7 @@ MRHB (Marhaba) Network provides Shariah-compliant financial services and require
 ### 1. Account Registration and Verification
 
 #### Process Flow
-1. User submits registration information [REFERENCE NEEDED: MRHB registration documentation]
+1. User submits registration information [REFERENCE NEEDED: MRHB registration process documentation]
    - Basic personal information (name, email, phone number)
    - Authentication credentials creation
    - Device information capture
