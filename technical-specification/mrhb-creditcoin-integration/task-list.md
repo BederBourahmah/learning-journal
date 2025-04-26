@@ -24,7 +24,18 @@
 
 #### Integration Requirements
 - T1-A-013: Business Process and Data Flow Documentation [In Progress]
-- T1-A-014: Existing API Mapping and Analysis [Blocked] (Depends on T1-A-013)
+  - Created initial documentation structure
+  - Documenting MRHB account management processes
+  - Next: Complete business process documentation
+- T1-A-014: Existing API Mapping and Analysis [In Progress]
+  - Created API investigation documentation
+  - Current Step: Setting up Android Studio for API inspection
+  - Next Steps:
+    1. Complete Android Studio setup
+    2. Configure Android emulator
+    3. Set up Charles Proxy
+    4. Begin API call capture and documentation
+  - Documentation: [API Investigation](research/wallet/api-investigation.md)
 - T1-A-015: Integration Gap Analysis and Requirements [Pending]
 
 ## Blockchain (Category B)

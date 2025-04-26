@@ -1,11 +1,5 @@
 # Creditcoin Business Processes
 
-## Task: T1-A-013
-**Status**: Pending  
-**Priority**: High  
-**Dependencies**: None  
-**Effort**: 1 point
-
 ## Description
 Document the business processes within the Creditcoin system that need to be integrated with MRHB.
 
@@ -39,4 +33,8 @@ Document the business processes within the Creditcoin system that need to be int
 ## Notes
 - This document requires input from Creditcoin stakeholders
 - All processes must be validated with business owners
-- Data models must be verified with technical teams 
+- Data models must be verified with technical teams
+
+## Related Tasks
+- T1-A-013: Business Process and Data Flow Documentation (Created this document)
+- T1-A-014: Existing API Mapping and Analysis (Will update this document) 

@@ -2,6 +2,35 @@
 
 This repository contains the technical specification and implementation details for the integration between MRHB Network and Creditcoin Network.
 
+## Current Status
+
+### Active Tasks
+1. **T1-A-013: Business Process and Data Flow Documentation** [In Progress]
+   - Documenting MRHB account management processes
+   - Location: `architecture/integration-requirements/business-processes/`
+
+2. **T1-A-014: Existing API Mapping and Analysis** [In Progress]
+   - Investigating MRHB Sahel Wallet API
+   - Current Step: Setting up Android Studio for API inspection
+   - Documentation: `research/wallet/api-investigation.md`
+   - Next Steps:
+     1. Complete Android Studio setup
+     2. Configure Android emulator
+     3. Set up Charles Proxy
+     4. Begin API call capture and documentation
+
+### Recent Progress
+- Created research directory structure
+- Documented initial account creation process
+- Started API investigation documentation
+- Installed Android Studio for API inspection
+
+### Next Actions
+1. Complete Android Studio setup
+2. Configure Android emulator
+3. Set up Charles Proxy
+4. Begin API call capture and documentation
+
 ## Project Structure
 
 ```
@@ -13,6 +42,10 @@ technical-specification/
 │   ├── data/                  # Data management specifications
 │   ├── security/              # Security implementation details
 │   ├── testing/               # Testing framework documentation
+│   ├── research/              # Research and investigation documentation
+│   │   └── wallet/           # Wallet-specific research
+│   │       ├── api-investigation.md
+│   │       └── sahel-account-creation.md
 │   ├── docs/                  # Additional documentation
 │   └── README.md              # This file
 ```
@@ -54,7 +87,7 @@ technical-specification/
 Tasks are identified using the format: T[Phase]-[Category]-[Sequence]
 - Phase: 1 (Foundation), 2 (Pilot), 3 (Implementation)
 - Category: A (Architecture), B (Blockchain), C (Compliance), D (Data), E (Security), F (Testing)
-- Sequence: Three-digit number (001-999)
+- Sequence: Three-digit number (001-999).
 
 Each task must include:
 - Task ID
@@ -68,10 +101,11 @@ Tasks with the same Phase and Category share a sequence number space (001-999). 
 
 ## Getting Started
 
-1. Review the task breakdown in the main technical specification document
-2. Navigate to the relevant section in the project structure
-3. Follow the documentation guidelines for each component
-4. Update task status in the tracking system
+1. Review the [task breakdown and tracking document](task-list.md)
+2. Check the Current Status section above for active tasks
+3. Navigate to the relevant section in the project structure
+4. Follow the documentation guidelines for each component
+5. Update task status in the tracking system
 
 ## Contributing
 
@@ -83,4 +117,4 @@ Tasks with the same Phase and Category share a sequence number space (001-999). 
 ## Status
 
 Project Status: Planning Phase
-Last Updated: 2025-04-19 
+Last Updated: 2025-04-26

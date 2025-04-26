@@ -1,11 +1,5 @@
 # MRHB Account Management Processes
 
-## Task: T1-A-013-1
-**Status**: Pending  
-**Priority**: High  
-**Dependencies**: None  
-**Effort**: 1 point
-
 ## Description
 This document details the account management processes within the MRHB system that need to be integrated with Creditcoin.
 
@@ -369,4 +363,9 @@ MRHB (Marhaba) Network provides Shariah-compliant financial services and require
 - Integration with Creditcoin must maintain Shariah compliance throughout
 - Data privacy regulations must be followed for all personal information
 - Account processes must be regularly audited for compliance
-- Changes to account management processes require approval workflow 
+- Changes to account management processes require approval workflow
+
+## Related Tasks
+- T1-A-013: Business Process and Data Flow Documentation (Created parent document)
+- T1-A-013-1: MRHB Account Management Processes (Created this document)
+- T1-A-014: Existing API Mapping and Analysis (Will update this document) 
